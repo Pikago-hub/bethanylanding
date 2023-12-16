@@ -1,0 +1,149 @@
+.swiper-outer-container {
+    position: relative;
+    width: calc(100% + 100px); 
+    margin-left: -50px; 
+    align-items: center;
+    justify-content: center;
+    @media (max-width: 768px) {
+      .swiper-outer-container {
+        width: 100%; 
+        margin-left: 0;
+      }
+    }
+  }
+
+.swiper-container {
+  flex-grow: 1; 
+  height: 500px;
+  display: flex;
+  align-items: center;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  }
+
+.swiper-container::-webkit-scrollbar {
+    display: none;
+  }
+
+.swiper-slides-wrapper {
+    display: flex;
+    transition: transform 0.5s ease; 
+  }
+  
+
+.swiper-feature-box {
+    flex: 0 0 20%;
+    margin: 5px;
+    padding: 5px;
+    border: 3px solid #d87474;
+    border-radius: 3px; 
+    text-align: center;
+  }
+
+
+  .swiper-feature-box img {
+    transform: scale(0.8);
+    width: 100%;       
+    height: auto;      
+    object-fit: cover; 
+    margin: auto;
+    display: block;
+  }
+
+  .swiper-feature-box .slide-content {
+    background-color: white;
+    padding: 10px; 
+    border-radius: 10px; 
+
+  }
+
+  .swiper-feature-box h3 {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333; 
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+
+  .swiper-feature-box p {
+    color: black;
+  }
+
+  .swiper-outer-button {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    width: 50px;  
+    height: 50px; 
+    border-radius: 50%; 
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+  }
+
+  .swiper-button-prev {
+    left: -70px; 
+  }
+  
+  .swiper-button-next {
+    right: -70px; 
+  }
+  
+  .swiper-outer-button:disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+
+  .add-to-order-button {
+    background-color: rgb(255, 4, 0);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+  
+  .add-to-order-button:hover {
+    background-color: darkred;
+  }
+
+  .title-description {
+    height: 90px; 
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  
+  .swiper-feature-box h3, .swiper-feature-box p {
+    margin: 5px 0;
+  }
+
+  @media (max-width: 768px) {
+    .swiper-outer-container {
+        width: 100%; 
+        margin-left: 0; 
+      }
+      .title-description {
+        height: 160px; 
+        overflow: hidden;
+        margin-bottom: 10px;
+      }
+    .swiper-feature-box {
+        flex: 0 0 auto;  
+        width: 200px;     
+        height: auto;
+        padding: 10px;  
+        margin: 5px;    
+      }
+  
+    .swiper-container {
+        overflow-x: auto;
+        padding-left: 5%;
+        padding-right: 5%;
+      }
+    }
