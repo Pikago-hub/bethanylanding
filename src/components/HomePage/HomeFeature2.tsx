@@ -87,7 +87,7 @@ const HomeFeature2 = () => {
             dishes, expertly prepared to tantalize your taste buds.
           </p>
           <a
-            href="https://eats.redbirdcloud.com/BethanyCafe"
+            href="https://bethany-cafe.redbirdtab.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -123,7 +123,7 @@ const HomeFeature2 = () => {
             innovative creations, all crafted with the finest ingredients.
           </p>
           <a
-            href="https://eats.redbirdcloud.com/BethanyCafe"
+            href="https://bethany-cafe.redbirdtab.com/"
             target="_blank"
             rel="noopener noreferrer"
           >

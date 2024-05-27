@@ -64,7 +64,7 @@ const Swiper: React.FC<SwiperProps> = ({
                 <p>{slide.description}</p>
               </div>
               <a
-                href="https://eats.redbirdcloud.com/BethanyCafe"
+                href="https://bethany-cafe.redbirdtab.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

@@ -41,7 +41,7 @@ const Header = () => {
             Find Us
           </Link>
           <a
-            href="https://eats.redbirdcloud.com/BethanyCafe"
+            href="https://bethany-cafe.redbirdtab.com/"
             className="order-online-button"
           >
             Order Online
@@ -97,7 +97,7 @@ const Header = () => {
             </li>
             <li className="mobile-drawer-link">
               <Link
-                to="https://eats.redbirdcloud.com/BethanyCafe"
+                to="https://bethany-cafe.redbirdtab.com/"
                 onClick={() => setIsDrawerOpen(false)}
               >
                 Order Online

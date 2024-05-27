@@ -48,7 +48,7 @@ const PromotionsHero = () => {
           drinks!
         </p>
         <a
-          href="https://eats.redbirdcloud.com/BethanyCafe"
+          href="https://bethany-cafe.redbirdtab.com/"
           style={styles.orderOnlineButton}
         >
           Order Online Now
