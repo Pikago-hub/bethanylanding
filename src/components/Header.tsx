@@ -31,9 +31,9 @@ const Header = () => {
             <li>
               <Link to="/promotions">Bethany Rewards</Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/cgiftcards">Gift Cards</Link>
-            </li>
+            </li> */}
           </ul>
         </div>
         <div className="button-container">
@@ -85,11 +85,11 @@ const Header = () => {
                 Bethany Rewards
               </Link>
             </li>
-            <li className="mobile-drawer-link">
+            {/* <li className="mobile-drawer-link">
               <Link to="/giftcards" onClick={() => setIsDrawerOpen(false)}>
                 Gift Cards
               </Link>
-            </li>
+            </li> */}
             <li className="mobile-drawer-link">
               <Link to="/about" onClick={() => setIsDrawerOpen(false)}>
                 Find Us

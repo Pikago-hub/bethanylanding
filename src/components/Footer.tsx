@@ -19,7 +19,7 @@ const Footer = () => {
           <Link to="/">Home</Link>
           <Link to="/menu">Menu</Link>
           <Link to="/promotions">Bethany Rewards</Link>
-          <Link to="/giftcards">Gift Cards</Link>
+          {/* <Link to="/giftcards">Gift Cards</Link> */}
           <Link to="/about">About</Link>
         </div>
         <p>Open Daily: 11am to 10pm</p>

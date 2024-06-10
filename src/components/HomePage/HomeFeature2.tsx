@@ -81,10 +81,11 @@ const HomeFeature2 = () => {
       <div style={imageLeftStyle}>
         {/* Text content */}
         <div style={contentLeftStyle}>
-          <h1 style={headingStyle}>Savor Authentic Chinese Delights</h1>
+          <h1 style={headingStyle}>Supporting Community Events</h1>
           <p style={paragraphStyle}>
-            Indulge in a culinary journey with our range of traditional Chinese
-            dishes, expertly prepared to tantalize your taste buds.
+            Feb 14th, 2024 - We sponsored boba teas for the Muslim Student
+            Association’s bake sale at UT Arlington. We are delighted to support
+            this event and help those in need.
           </p>
           <a
             href="https://bethany-cafe.redbirdtab.com/"
@@ -117,10 +118,10 @@ const HomeFeature2 = () => {
 
         {/* Text content */}
         <div style={contentRightStyle}>
-          <h1 style={headingStyle}>Discover the Magic of Boba</h1>
+          <h1 style={headingStyle}>Our Commitment to Giving Back</h1>
           <p style={paragraphStyle}>
-            Explore our diverse selection of boba teas, from classic flavors to
-            innovative creations, all crafted with the finest ingredients.
+            At Bethany Cafe, we believe in giving back to our community and
+            bringing joy to those around us.
           </p>
           <a
             href="https://bethany-cafe.redbirdtab.com/"

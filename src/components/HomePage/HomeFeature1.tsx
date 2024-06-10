@@ -10,9 +10,10 @@ import dish1Image from "../../assets/img/homeFeature1.jpg";
 import dish2Image from "../../assets/img/homeFeature2.jpg";
 import dish3Image from "../../assets/img/homeFeature3.jpg";
 import dish5Image from "../../assets/img/homeFeature5.jpg";
-import dish6Image from "../../assets/img/homeFeature6.jpg";
-import dish7Image from "../../assets/img/homeFeature7.jpg";
-import dish8Image from "../../assets/img/homeFeature8.jpg";
+import dish6Image from "../../assets/img/homeFeature6.png";
+import dish7Image from "../../assets/img/homeFeature7.png";
+import dish8Image from "../../assets/img/homeFeature8.png";
+import dish4Image from "../../assets/img/homeFeature4.jpg";
 
 interface Props {
   className: string;
@@ -51,7 +52,7 @@ const Swiper: React.FC<SwiperProps> = ({
           transition: "transform 0.5s ease",
         }}
       >
-        {slides.map((slide, index) => (
+        {slides.map((slide) => (
           <div
             key={slide.id}
             className="swiper-feature-box flex-shrink-0"
@@ -68,7 +69,7 @@ const Swiper: React.FC<SwiperProps> = ({
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="add-to-order-button">Add to Orders</button>
+                <button className="add-to-order-button">Start Ordering</button>
               </a>
             </div>
           </div>
@@ -96,51 +97,56 @@ export default function HomeFeature1({ id, className }: Props) {
   const features = [
     {
       id: 1,
-      title: "Beef Noodle Soup",
+      title: "Kong Rice 控肉饭",
       description:
-        "A classic favorite with tender beef, hand-pulled noodles, and a rich, spiced broth.",
+        "Braised pork belly rice served with homemade sour cabbage, tea egg, and minced pork sauce over the rice.",
       imageUrl: dish1Image,
     },
     {
       id: 2,
-      title: "Pork Chop Platter",
+      title: "Stinky Tofu 臭豆腐",
       description:
-        "Juicy fried pork chops served with rice and mixed vegetables.",
+        "Distinctive fermented tofu dish served with homemade sour cabbage.",
       imageUrl: dish2Image,
     },
     {
       id: 3,
-      title: "Kong Platter",
+      title: "Minced Pork and Bean Sauce Noodle 炸酱面",
       description:
-        "A delightful pork belly dish served with rice of your choice and mixed tea egg.",
+        "Savory bean sauce complements the tender minced pork and fresh noodles, served with cilantro, green onions, carrots, and cucumbers.",
       imageUrl: dish3Image,
     },
     {
       id: 4,
-      title: "Fizzy Drinks",
+      title: "Pepper Steak Rice 青椒牛饭",
       description:
-        "Refreshing and bubbly beverages in a variety of exciting flavors.",
+        "Tender strips of beef with peppers, onions and a flavorful brown sauce, served over steamed rice.",
       imageUrl: dish8Image,
     },
     {
       id: 5,
-      title: "Strawberry Matcha Latte",
-      description:
-        "A sweet and earthy blend of strawberries and matcha in a creamy latte.",
+      title: "Dirty Ice Cream Boba (Large)",
+      description: "Brown sugar milk tea with vanilla ice cream.",
       imageUrl: dish5Image,
     },
     {
       id: 6,
-      title: "Choco Dinosaur",
-      description: "A rich, chocolatey drink for the ultimate chocolate lover.",
+      title: "Vietnamese Iced Coffee (Large)",
+      description: "An intensely strong and sweet coffee.",
       imageUrl: dish6Image,
     },
     {
       id: 7,
-      title: "Dirty Boba",
-      description:
-        "Bold brewed tea with milk, tapioca pearls, and brown sugar.",
+      title: "Chamoyada",
+      description: "Mango guava slush swirled with chamoy sauce.",
       imageUrl: dish7Image,
+    },
+    {
+      id: 8,
+      title: "Mango Dragonfruit Lemonade (Large)",
+      description:
+        "A refreshing blend of tropical mango, vibrant dragonfruit, and zesty lemonade, perfect for a sunny day.",
+      imageUrl: dish4Image,
     },
   ];
 
@@ -150,11 +156,11 @@ export default function HomeFeature1({ id, className }: Props) {
         <div className="container mx-auto py-24 px-5 sm:space-y-12">
           <div className="space-y-5 text-center sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
             <p className="mt-2 text-3xl md:text-6xl font-extrabold dark:text-black">
-              Favorite Dishes
+              Top Sellers
             </p>
           </div>
-          <div className="mt-12 lg:mt-0 lg:col-span-2 ">
-            <div className="swiper-outer-container ">
+          <div className="mt-12 lg:mt-0 lg:col-span-2">
+            <div className="swiper-outer-container">
               <button
                 className="swiper-outer-button swiper-button-prev hidden md:block"
                 onClick={prevSlide}

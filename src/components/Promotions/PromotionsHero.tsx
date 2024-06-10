@@ -42,10 +42,11 @@ const PromotionsHero = () => {
   return (
     <div style={styles.heroContainer}>
       <div>
-        <h1 style={styles.heroTitle}>Bethany Rewards</h1>
+        <h1 style={styles.heroTitle}>Combo Deal</h1>
         <p style={styles.heroSubtitle}>
-          Join our rewards program to earn points and redeem them for free
-          drinks!
+          FYI, all entrees come with a complimentary drink - choose from
+          original black tea, green tea, or milk tea. You can also upgrade to
+          other drinks for half off (excluding fizzy drinks).
         </p>
         <a
           href="https://bethany-cafe.redbirdtab.com/"
