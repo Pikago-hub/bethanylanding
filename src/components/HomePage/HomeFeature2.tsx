@@ -31,7 +31,7 @@ const HomeFeature2 = () => {
 
   const imageRightStyle: CSSProperties = {
     ...imageLeftStyle,
-    flexDirection: isMobile ? "column" : "row-reverse",
+    flexDirection: isMobile ? "column" : "row",
   };
 
   const contentStyle: CSSProperties = {
@@ -76,6 +76,10 @@ const HomeFeature2 = () => {
     marginBottom: "20px",
   };
 
+  const gapStyle: CSSProperties = {
+    marginTop: "100px", // Add desired gap size here
+  };
+
   return (
     <div style={wrapperStyle}>
       <div style={imageLeftStyle}>
@@ -87,7 +91,7 @@ const HomeFeature2 = () => {
             Association’s bake sale at UT Arlington. We are delighted to support
             this event and help those in need.
           </p>
-          <a
+          {/* <a
             href="https://bethany-cafe.redbirdtab.com/"
             target="_blank"
             rel="noopener noreferrer"
@@ -105,7 +109,7 @@ const HomeFeature2 = () => {
             >
               Order Now
             </button>
-          </a>
+          </a> */}
         </div>
         {/* Image */}
         <div style={imageStyle}>
@@ -113,9 +117,13 @@ const HomeFeature2 = () => {
         </div>
       </div>
 
+      <div style={gapStyle}></div>
+
       <div style={imageRightStyle}>
         {/* Image */}
-
+        <div style={imageStyle}>
+          <img src={feature2Image} alt="Feature 2" style={imageTagStyle} />
+        </div>
         {/* Text content */}
         <div style={contentRightStyle}>
           <h1 style={headingStyle}>Our Commitment to Giving Back</h1>
@@ -123,7 +131,7 @@ const HomeFeature2 = () => {
             At Bethany Cafe, we believe in giving back to our community and
             bringing joy to those around us.
           </p>
-          <a
+          {/* <a
             href="https://bethany-cafe.redbirdtab.com/"
             target="_blank"
             rel="noopener noreferrer"
@@ -141,10 +149,7 @@ const HomeFeature2 = () => {
             >
               Order Now
             </button>
-          </a>
-        </div>
-        <div style={imageStyle}>
-          <img src={feature2Image} alt="Feature 2" style={imageTagStyle} />
+          </a> */}
         </div>
       </div>
     </div>

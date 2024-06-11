@@ -26,10 +26,13 @@ const Header = () => {
               <Link to="/">Home</Link>
             </li>
             <li>
+              <Link to="/promotions">Combo Deal</Link>
+            </li>
+            <li>
               <Link to="/menu">Menu</Link>
             </li>
             <li>
-              <Link to="/promotions">Bethany Rewards</Link>
+              <Link to="/events">Events</Link>
             </li>
             {/* <li>
               <Link to="/cgiftcards">Gift Cards</Link>
@@ -37,9 +40,9 @@ const Header = () => {
           </ul>
         </div>
         <div className="button-container">
-          <Link to="/about" className="find-us-button">
+          {/* <Link to="/about" className="find-us-button">
             Find Us
-          </Link>
+          </Link> */}
           <a
             href="https://bethany-cafe.redbirdtab.com/"
             className="order-online-button"
@@ -76,25 +79,31 @@ const Header = () => {
               </Link>
             </li>
             <li className="mobile-drawer-link">
+              <Link to="/promotions" onClick={() => setIsDrawerOpen(false)}>
+                Combo Deal
+              </Link>
+            </li>
+            <li className="mobile-drawer-link">
               <Link to="/menu" onClick={() => setIsDrawerOpen(false)}>
                 Menu
               </Link>
             </li>
             <li className="mobile-drawer-link">
-              <Link to="/promotions" onClick={() => setIsDrawerOpen(false)}>
-                Bethany Rewards
+              <Link to="/events" onClick={() => setIsDrawerOpen(false)}>
+                Events
               </Link>
             </li>
+
             {/* <li className="mobile-drawer-link">
               <Link to="/giftcards" onClick={() => setIsDrawerOpen(false)}>
                 Gift Cards
               </Link>
             </li> */}
-            <li className="mobile-drawer-link">
+            {/* <li className="mobile-drawer-link">
               <Link to="/about" onClick={() => setIsDrawerOpen(false)}>
                 Find Us
               </Link>
-            </li>
+            </li> */}
             <li className="mobile-drawer-link">
               <Link
                 to="https://bethany-cafe.redbirdtab.com/"

@@ -6,14 +6,14 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import "../../styles/swiper.css";
 
-import dish1Image from "../../assets/img/homeFeature1.jpg";
-import dish2Image from "../../assets/img/homeFeature2.jpg";
-import dish3Image from "../../assets/img/homeFeature3.jpg";
-import dish5Image from "../../assets/img/homeFeature5.jpg";
+import dish1Image from "../../assets/img/homeFeature1.png";
+import dish2Image from "../../assets/img/homeFeature2.png";
+import dish3Image from "../../assets/img/homeFeature3.png";
+import dish5Image from "../../assets/img/homeFeature5.png";
 import dish6Image from "../../assets/img/homeFeature6.png";
 import dish7Image from "../../assets/img/homeFeature7.png";
 import dish8Image from "../../assets/img/homeFeature8.png";
-import dish4Image from "../../assets/img/homeFeature4.jpg";
+import dish4Image from "../../assets/img/homeFeature4.png";
 
 interface Props {
   className: string;

@@ -9,6 +9,7 @@ import Menu from "./components/Menu";
 import Promotions from "./components/Promotions";
 import GiftCards from "./components/GiftCards";
 import About from "./components/About";
+import Events from "./components/Events";
 
 export default function App() {
   return (
@@ -29,6 +30,7 @@ export default function App() {
               <Route path="/promotions" element={<Promotions />} />
               <Route path="/giftcards" element={<GiftCards />} />
               <Route path="/about" element={<About />} />
+              <Route path="/events" element={<Events />} />
             </Routes>
           </main>
           <Footer />
