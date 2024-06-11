@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import menu1Image from "../../src/assets/img/Menu1.png";
-import menu2Image from "../../src/assets/img/Menu2.png";
-import HomeFeature1 from "./HomePage/HomeFeature1"; // Adjust the path according to your directory structure
+import menu1Image from "../../src/assets/img/Menu1.jpg";
+import menu2Image from "../../src/assets/img/Menu2.jpg";
+import HomeFeature1 from "./HomePage/HomeFeature1";
 
 const Menu = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
